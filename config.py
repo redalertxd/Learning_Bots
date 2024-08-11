@@ -5,15 +5,15 @@ from dotenv import load_dotenv
 from pyrogram import filters
 
 load_dotenv()
+ 
 
-
-API_ID = 
-API_HASH = ""
-BOT_TOKEN = ""
-MONGO_DB_URI = ""
+API_ID = 23806754
+API_HASH = "0b52aa37a124eb867ee42cbddcfbcb9f"
+BOT_TOKEN = "7486479006:AAG3y12bld75LaEciclWvUilep2VGRy09aE"
+MONGO_DB_URI = "mongodb+srv://agipamgdwcpdmi:agipamgdwcpdmi@cluster0.7ao0z.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
-LOGGER_ID = 
-OWNER_ID = 
+LOGGER_ID = -1002183542797 
+OWNER_ID = 5635324483
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -30,8 +30,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FallenAssociation")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DevilsHeavenMF")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SUNSHINE_HINDI_ENGLISH_CHANNELS")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/log_200")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -53,7 +53,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = ""
+STRING1 = "BQFrQyIAEpxfUm3R5DrCUthO7q5HHj8BCKzVHsrI71T_lq3_K0Q9ivH3cjmyzi1O1v6ryxE50ihTHeNwj2TCqDEfNCciG0892KfeKScqw_HSDBPbVBgbTzzNu6LRYkd5mNPL6dQy8rJPLNERB6kFRvcY5KVuEzQYT1G3byXvCtJ6qJoD7WbVgy7_U7iKWBSDtYESwPAxFecE7NP_4X5aaqn8KBaStw3PU85Uz4TywI337_4iYcyJTTdRYp9ydSot6p58E8MvseEwE83Mkp-m8xEVE6ZFbjL2vOekem1JCIe7G-P0llaEoz14i-lB-NzM2MEYi3kIfkZAF9ehzQOUvPaYC2iWEQAAAAG741iIAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
